@@ -1,3 +1,10 @@
+/**
+ * Inicia una nueva partida, poniendo los valores a 0, como por ejemplo vacia el array de cartasRepetidas o las puntuaciones de los jugadores
+ * @param {string[]} arrayCartasRepetidas 
+ * @param {number} valoresCartasJugador 
+ * @param {number} valoresCartasCrupier 
+ * @param {number} tengoAS 
+ */
 export function valoresPorDefecto(arrayCartasRepetidas,valoresCartasJugador,valoresCartasCrupier,tengoAS){
     const contenedorCartasJugador=document.getElementById("contenedorCartasJugador");
     const contenedorPuntuacionJugador=document.getElementById("puntuacionJugador");

@@ -3,6 +3,7 @@ import { cartaSeleccionada } from "./casosDeUso/cartaSeleccionada";
 import { valoresPorDefecto } from "./casosDeUso/valoresPorDefecto";
 import { mostrarContenedorMensaje } from "./casosDeUso/mostrarContenedorMensaje";
 
+const juego=(()=>{
 //Jugador
 const contenedorCartasJugador=document.getElementById("contenedorCartasJugador");
 const contenedorPuntuacionJugador=document.getElementById("puntuacionJugador");
@@ -165,3 +166,6 @@ function sacarCartaJugador(){
     }while(!arrayCartasRepetidas.includes(carta))
 
 }
+
+return {nuevaPartida:valoresPorDefecto}
+}) ()

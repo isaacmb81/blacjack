@@ -1,3 +1,6 @@
+/**
+ * Muestra el contenedor en el que nos sale si hemos ganado, perdido o hemos empatado y pone los botones deshabilitados
+ */
 export function mostrarContenedorMensaje(){
     const botonPedirCarta=document.getElementById("pedirCarta");
     const botonPlantarse=document.getElementById("detener");

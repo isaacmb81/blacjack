@@ -1,3 +1,9 @@
+/**
+ * Recibe 2 números y devuelve la cadena de como se llama la imagen
+ * @param {number} numero 
+ * @param {number} palo 
+ * @returns string
+ */
 export function cartaSeleccionada(numero,palo){
     switch(numero){
         case 1:
